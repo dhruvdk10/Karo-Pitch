@@ -570,8 +570,6 @@ p {
 @media(max-width:400px) {
 
   .sub-nav-links {
-    flex-direction: column;
-    align-items: center;
     gap: 6px;
   }
 
