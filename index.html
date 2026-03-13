@@ -68,19 +68,66 @@
 
       <!-- HERO -->
 
-      <section class="hero">
-        <div class="container">
+      <section class="hero carousel slide" id="heroCarousel" data-bs-ride="carousel" data-bs-interval="4000">
 
-          <h1>Pitch Your Startup to India's Leading Investors</h1>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
 
-          <p>KaroPitch is a platform where ambitious founders showcase their ideas, connect with investors, and unlock funding opportunities to scale their startups.</p>
+        <div class="carousel-inner">
 
-          <div>
-            <a href="#" class="btn btn-main me-3">Apply to Pitch</a>
-            <a href="#" class="btn btn-main">Explore Startups</a>
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Pitch Your Startup to Leading Investors</h1>
+                <p>Present your ideas, connect with investors, and unlock funding opportunities.</p>
+
+                <a href="#" class="btn btn-main me-3">Apply to Pitch</a>
+                <a href="#" class="btn btn-main">Explore Startups</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Discover Innovative Startups</h1>
+                <p>Explore startups from across India building the next generation of businesses.</p>
+
+                <a href="#" class="btn btn-main me-3">Browse Startups</a>
+                <a href="#" class="btn btn-main">Join Investors</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Connect With Top Investors</h1>
+                <p>Build partnerships, raise funding, and scale your startup faster.</p>
+
+                <a href="#" class="btn btn-main me-3">Join Community</a>
+                <a href="#" class="btn btn-main">Learn More</a>
+              </div>
+            </div>
           </div>
 
         </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
       </section>
 
       <!-- ABOUT -->
@@ -130,7 +177,7 @@
               <div class="step-box">
                 <div class="step-number" data-aos="zoom-in">2</div>
                 <h4>Get Shortlisted</h4>
-                <p>KaroStartup reviews your application.</p>
+                <p>KaroPitch reviews your application.</p>
               </div>
             </div>
 
@@ -419,28 +466,28 @@
     </script>
 
     <script>
-window.addEventListener("load", function(){
+      window.addEventListener("load", function () {
 
-  if(!sessionStorage.getItem("splashShown")){
+        if (!sessionStorage.getItem("splashShown")) {
 
-    setTimeout(function(){
+          setTimeout(function () {
 
-      document.getElementById("splash-screen").style.display="none";
-      document.getElementById("main-content").style.display="block";
+            document.getElementById("splash-screen").style.display = "none";
+            document.getElementById("main-content").style.display = "block";
 
-      sessionStorage.setItem("splashShown", true);
+            sessionStorage.setItem("splashShown", true);
 
-    },2000);
+          }, 2000);
 
-  }else{
+        } else {
 
-    document.getElementById("splash-screen").style.display="none";
-    document.getElementById("main-content").style.display="block";
+          document.getElementById("splash-screen").style.display = "none";
+          document.getElementById("main-content").style.display = "block";
 
-  }
+        }
 
-});
-</script>
+      });
+    </script>
 
   </body>
 
