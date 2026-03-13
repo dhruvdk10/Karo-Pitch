@@ -31,243 +31,477 @@
 
 <body>
 
-  <!-- Splash Screen -->
-  <div id="splash-screen">
-    <img src="karopitch-logo.png" alt="KaroPitch Logo">
-  </div>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+      <img src="karopitch-logo.png" alt="KaroPitch Logo">
+    </div>
 
-  <!-- Main Website Content -->
-  <div id="main-content">
+    <!-- Main Website Content -->
+    <div id="main-content">
 
-    <!-- ================= NAVBAR ================= -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">
-          <img src="karopitch-logo.png" alt="KaroPitch Logo">
-        </a>
+          <a class="navbar-brand" href="#">
+            <img src="karopitch-logo.png" alt="KaroPitch Logo" class="logo">
+          </a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-          <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Explore Startups</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Investors</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+      <!--Sub Navbar-->
+
+      <nav class="sub-navbar">
+        <div class="container-fluid">
+          <div class="sub-nav-links">
+
+            <a href="#"><i class="fa-solid fa-bolt"></i> Trending Startups</a>
+            <a href="#"><i class="fa-solid fa-lightbulb"></i> Startup Ideas</a>
+            <a href="#"><i class="fa-solid fa-chart-line"></i> Funding News</a>
+            <a href="#"><i class="fa-solid fa-user-tie"></i> Founder Stories</a>
+            <a href="#"><i class="fa-solid fa-handshake"></i> Investor Network</a>
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- HERO -->
+
+      <section class="hero carousel slide" id="heroCarousel" data-bs-ride="carousel" data-bs-interval="4000">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Pitch Your Startup to Leading Investors</h1>
+                <p>Present your ideas, connect with investors, and unlock funding opportunities.</p>
+
+                <a href="#" class="btn btn-main me-3">Apply to Pitch</a>
+                <a href="#" class="btn btn-main">Explore Startups</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Discover Innovative Startups</h1>
+                <p>Explore startups from across India building the next generation of businesses.</p>
+
+                <a href="#" class="btn btn-main me-3">Browse Startups</a>
+                <a href="#" class="btn btn-main">Join Investors</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="hero-slide">
+              <div class="container">
+                <h1>Connect With Top Investors</h1>
+                <p>Build partnerships, raise funding, and scale your startup faster.</p>
+
+                <a href="#" class="btn btn-main me-3">Join Community</a>
+                <a href="#" class="btn btn-main">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="navbar-nav ms-auto">
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
 
-            <li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Explore Startups</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Investors</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </section>
 
-          </ul>
-        </div>
+      <!-- ABOUT -->
 
-      </div>
-    </nav>
+      <section class="section">
+        <div class="container-fluid">
 
+          <div class="section-title">
+            <h2>About KaroPitch</h2>
+          </div>
 
-    <!-- ================= SUB NAVBAR ================= -->
-    <nav class="sub-navbar">
-      <div class="container-fluid">
-        <div class="sub-nav-links">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
 
-          <a href="#"><i class="fa-solid fa-bolt"></i> Trending Startups</a>
-          <a href="#"><i class="fa-solid fa-lightbulb"></i> Startup Ideas</a>
-          <a href="#"><i class="fa-solid fa-chart-line"></i> Funding News</a>
-          <a href="#"><i class="fa-solid fa-user-tie"></i> Founder Stories</a>
-          <a href="#"><i class="fa-solid fa-handshake"></i> Investor Network</a>
-
-        </div>
-      </div>
-    </nav>
-
-
-    <!-- ================= HERO SECTION ================= -->
-    <section class="hero carousel slide" id="heroCarousel" data-bs-ride="carousel" data-bs-interval="4000">
-
-      <!-- Carousel Indicators -->
-      <div class="carousel-indicators">
-        <button data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-        <button data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-        <button data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-      </div>
-
-      <div class="carousel-inner">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="hero-slide">
-            <div class="container">
-
-              <h1>Pitch Your Startup to Leading Investors</h1>
-              <p>Present your ideas, connect with investors, and unlock funding opportunities.</p>
-
-              <a href="#" class="btn btn-main me-3">Apply to Pitch</a>
-              <a href="#" class="btn btn-main">Explore Startups</a>
+              <p>
+                KaroPitch is a startup discovery and investment platform designed to bridge the gap between promising founders and potential investors.
+                We help early-stage startups present their ideas, gain visibility, and access mentorship, funding, and strategic partnerships.
+                Our mission is to empower entrepreneurs across India especially from emerging cities to turn ideas into successful businesses.
+              </p>
 
             </div>
           </div>
+
         </div>
+      </section>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="hero-slide">
-            <div class="container">
+      <!-- HOW IT WORKS -->
 
-              <h1>Discover Innovative Startups</h1>
-              <p>Explore startups from across India building the next generation of businesses.</p>
+      <section class="section bg-light">
+        <div class="container">
 
-              <a href="#" class="btn btn-main me-3">Browse Startups</a>
-              <a href="#" class="btn btn-main">Join Investors</a>
+          <div class="section-title">
+            <h2>How It Works</h2>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md-3">
+              <div class="step-box">
+                <div class="step-number" data-aos="zoom-in">1</div>
+                <h4>Apply</h4>
+                <p>Submit your startup pitch deck.</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="step-box">
+                <div class="step-number" data-aos="zoom-in">2</div>
+                <h4>Get Shortlisted</h4>
+                <p>KaroStartup reviews your application.</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="step-box">
+                <div class="step-number" data-aos="zoom-in">3</div>
+                <h4>Pitch</h4>
+                <p>Present your startup live to investors.</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="step-box">
+                <div class="step-number" data-aos="zoom-in">4</div>
+                <h4>Raise Funding</h4>
+                <p>Connect with investors and grow.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- WHO CAN APPLY -->
+
+      <section class="section">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Who Can Apply</h2>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-bag-shopping apply-icon"></i>
+                <h5>D2C Brands</h5>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-users apply-icon"></i>
+                <h5>Consumer Startups</h5>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-industry apply-icon"></i>
+                <h5>MSMEs</h5>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-cloud apply-icon"></i>
+                <h5>SaaS Startups</h5>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-gears apply-icon"></i>
+                <h5>Manufacturing Businesses</h5>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card p-4 apply-card">
+                <i class="fa-solid fa-globe apply-icon"></i>
+                <h5>Bharat Focused Startups</h5>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- INVESTORS SECTION -->
+
+      <section class="section">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Meet Investors</h2>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card investor-card p-4">
+                <i class="fa-solid fa-user-tie investor-icon"></i>
+                <h5>Angel Investors</h5>
+                <p>Investing in early-stage startup opportunities.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card investor-card p-4">
+                <i class="fa-solid fa-building investor-icon"></i>
+                <h5>Venture Capital Firms</h5>
+                <p>Funding scalable startups with high growth.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card investor-card p-4">
+                <i class="fa-solid fa-handshake investor-icon"></i>
+                <h5>Strategic Partners</h5>
+                <p>Collaborating to accelerate startup growth.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- FEATURED STARTUPS -->
+
+      <section class="section bg-light">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Featured Startups</h2>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card startup-card">
+                <i class="fa-solid fa-leaf startup-icon"></i>
+                <h5>FarmFresh</h5>
+                <p>Connecting farmers directly to urban markets.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card startup-card">
+                <i class="fa-solid fa-shirt startup-icon"></i>
+                <h5>UrbanStyle</h5>
+                <p>D2C fashion brand focused on Gen Z consumers.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card startup-card">
+                <i class="fa-solid fa-chart-simple startup-icon"></i>
+                <h5>TechLedger</h5>
+                <p>SaaS accounting platform for MSMEs.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT KAROSTARTUP -->
+
+      <section class="section">
+        <div class="container-fluid">
+
+          <div class="section-title">
+            <h2>About KaroStartup</h2>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+
+              <p>
+                KaroStartup is a leading startup media and storytelling platform dedicated to showcasing inspiring founder journeys and innovative business ideas.
+                Through articles, interviews, and startup features, KaroStartup has built a vibrant community of entrepreneurs, creators, and investors across India.
+              </p>
 
             </div>
           </div>
+
         </div>
+      </section>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="hero-slide">
-            <div class="container">
+      <!-- CTA -->
 
-              <h1>Connect With Top Investors</h1>
-              <p>Build partnerships, raise funding, and scale your startup faster.</p>
+      <section class="cta">
+        <div class="container">
 
-              <a href="#" class="btn btn-main me-3">Join Community</a>
-              <a href="#" class="btn btn-main">Learn More</a>
+          <h2>Ready to Pitch Your Startup?</h2>
 
+          <br>
+
+          <a href="#" class="btn btn-light me-3">Apply Now</a>
+          <a href="#" class="btn btn-outline-light">Partner With Us</a>
+
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+
+            <!-- Brand -->
+            <div class="col-lg-4 col-md-6 mb-4 me-5">
+              <h4 class="footer-logo">P<span>itch</span></h4>
+              <p>
+                KaroPitch is a platform where startups connect with investors.
+                Pitch your ideas, get discovered, and raise funding to build the future.
+              </p>
+
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
             </div>
-          </div>
-        </div>
 
-      </div>
+            <!-- Platform -->
+            <div class="col-lg-2 col-md-6 mb-4">
+              <h5>Platform</h5>
+              <ul>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Submit Pitch</a></li>
+                <li><a href="#">Browse Startups</a></li>
+                <li><a href="#">Investor Access</a></li>
+              </ul>
+            </div>
 
-      <!-- Carousel Controls -->
-      <button class="carousel-control-prev" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
+            <!-- Resources -->
+            <div class="col-lg-2 col-md-6 mb-4">
+              <h5>Resources</h5>
+              <ul>
+                <li><a href="#">Startup Stories</a></li>
+                <li><a href="#">Founder Interviews</a></li>
+                <li><a href="#">Pitch Tips</a></li>
+                <li><a href="#">Funding Guides</a></li>
+              </ul>
+            </div>
 
-      <button class="carousel-control-next" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-    <section class="section">
-      <div class="container-fluid">
-
-        <div class="section-title">
-          <h2>About KaroPitch</h2>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-
-            <p>
-              KaroPitch is a startup discovery and investment platform that bridges the gap between
-              founders and investors. It enables early-stage startups to showcase their ideas,
-              gain visibility, and connect with mentors, partners, and funding opportunities.
-            </p>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- ================= CTA ================= -->
-    <section class="cta">
-      <div class="container text-center">
-
-        <h2>Ready to Pitch Your Startup?</h2>
-
-        <br>
-
-        <a href="#" class="btn btn-light me-3">Apply Now</a>
-        <a href="#" class="btn btn-outline-light">Partner With Us</a>
-
-      </div>
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <h4 class="footer-logo">P<span>itch</span></h4>
-
-            <p>
-              KaroPitch is a platform where startups connect with investors
-              to showcase ideas and raise funding.
-            </p>
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6 mb-4">
+              <h5>Company</h5>
+              <ul>
+                <li><a href="#">About KaroStartup</a></li>
+                <li><a href="#">Partner With Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
 
           </div>
 
-        </div>
+          <!-- Bottom Footer -->
+          <div class="footer-bottom">
+            <p>© 2026 KaroPitch. A product of KaroStartup.</p>
 
-        <div class="footer-bottom">
+            <div class="footer-links">
+              <a href="#">Privacy Policy </a>
+              <a href="#">Terms & Conditions </a>
+              <a href="#">Cookies</a>
+            </div>
 
-          <p>© 2026 KaroPitch. A product of KaroStartup.</p>
-
-          <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms</a>
-            <a href="#">Cookies</a>
+            <p>Made with ❤️ for Founders & Investors</p>
           </div>
 
-          <p>Made with ❤️ for founders</p>
-
         </div>
+      </footer>
 
-      </div>
+      <a href="" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+      </a>
+    </div>
 
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-  </div>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false
+      });
+    </script>
 
+    <script>
+      window.addEventListener("load", function () {
 
-  <!-- ================= SCRIPTS ================= -->
+        if (!sessionStorage.getItem("splashShown")) {
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+          setTimeout(function () {
 
-  <script>
-    AOS.init({
-      duration: 1000
-    });
-  </script>
+            document.getElementById("splash-screen").style.display = "none";
+            document.getElementById("main-content").style.display = "block";
 
-  <!-- Splash Screen Script -->
-  <script>
-    window.addEventListener("load", function () {
+            sessionStorage.setItem("splashShown", true);
 
-      if (!sessionStorage.getItem("splashShown")) {
+          }, 2000);
 
-        setTimeout(function () {
+        } else {
 
           document.getElementById("splash-screen").style.display = "none";
           document.getElementById("main-content").style.display = "block";
 
-          sessionStorage.setItem("splashShown", true);
+        }
 
-        }, 2000);
+      });
+    </script>
 
-      } else {
-
-        document.getElementById("splash-screen").style.display = "none";
-        document.getElementById("main-content").style.display = "block";
-
-      }
-
-    });
-  </script>
-
-</body>
+  </body>
 
 </html>
