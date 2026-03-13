@@ -169,8 +169,8 @@ p {
 
 /* HERO CAROUSEL */
 
-.hero .carousel-item {
-  padding: 120px 0;
+.hero-slide{
+padding:120px 0;
 }
 
 .hero .carousel-control-prev,
