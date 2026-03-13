@@ -132,7 +132,7 @@ p {
 /* HERO */
 
 .hero {
-  background: linear-gradient(135deg, #4d0000 0%, #9b0000 50%, #eb2c22 100%);
+  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff6f68 100%);
   color: white;
   position: relative;
   overflow: hidden;
@@ -262,7 +262,7 @@ p {
 
 .apply-icon {
   font-size: 32px;
-  color: #ab221a;
+  color: #cf4840;
 }
 
 .apply-card:hover .apply-icon {
@@ -330,7 +330,7 @@ p {
 .investor-icon {
   font-size: 36px;
   margin-bottom: 15px;
-  color: #d62c22;
+  color: #e2534b;
 }
 
 .investor-card h5 {
@@ -368,7 +368,7 @@ p {
 
 .startup-icon {
   font-size: 34px;
-  color: #ff3b30;
+  color: #ff6f68;
   margin-bottom: 12px;
 }
 
@@ -390,7 +390,7 @@ p {
 /* CTA */
 
 .cta {
-  background: fixed linear-gradient(135deg, #4d0000 0%, #9b0000 50%, #eb2c22 100%);
+  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff6f68 100%);
   color: white;
   padding: 100px 0;
   text-align: center;
