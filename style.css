@@ -102,6 +102,7 @@ p {
 .sub-navbar {
   background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
   padding: 0;
+  margin-top: 5px;
 }
 
 .sub-nav-links {
