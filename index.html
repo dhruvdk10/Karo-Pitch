@@ -419,17 +419,28 @@
     </script>
 
     <script>
-      window.addEventListener("load", function () {
+window.addEventListener("load", function(){
 
-        setTimeout(function () {
+  if(!sessionStorage.getItem("splashShown")){
 
-          document.getElementById("splash-screen").style.display = "none";
-          document.getElementById("main-content").style.display = "block";
+    setTimeout(function(){
 
-        }, 2000);
+      document.getElementById("splash-screen").style.display="none";
+      document.getElementById("main-content").style.display="block";
 
-      });
-    </script>
+      sessionStorage.setItem("splashShown", true);
+
+    },2000);
+
+  }else{
+
+    document.getElementById("splash-screen").style.display="none";
+    document.getElementById("main-content").style.display="block";
+
+  }
+
+});
+</script>
 
   </body>
 
