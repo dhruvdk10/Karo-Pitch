@@ -78,7 +78,7 @@ p {
 }
 
 .nav-link:hover {
-  color: #c31f16 !important;
+  color: #e2534b !important;
 }
 
 .navbar-toggler {
@@ -132,7 +132,7 @@ p {
 /* HERO */
 
 .hero {
-  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff6f68 100%);
+  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff7d77 100%);
   color: white;
   position: relative;
   overflow: hidden;
@@ -390,7 +390,7 @@ p {
 /* CTA */
 
 .cta {
-  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff6f68 100%);
+  background: linear-gradient(135deg, #cf4840 0%, #e2534b 50%, #ff7d77 100%);
   color: white;
   padding: 100px 0;
   text-align: center;
