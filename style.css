@@ -107,6 +107,10 @@ p {
   border: none !important;
 }
 
+.navbar-collapse {
+  margin-top: 30px;
+}
+
 /* SUB NAVBAR */
 
 .sub-navbar {
@@ -574,299 +578,299 @@ p {
 
 /* MOBILE */
 
-      @media (max-width:992px) {
-
-        p {
-          font-size: 17px;
-        }
-
-        .sub-nav-links {
-          gap: 20px;
-        }
-
-        .sub-nav-links a {
-          font-size: 13px;
-          padding: 16px 14px;
-        }
-
-        .hero {
-          min-height: calc(100vh - 150px);
-        }
-
-        .hero h1 {
-          font-size: 42px;
-        }
-
-        .hero p {
-          font-size: 15px;
-        }
-
-        .btn-main {
-          padding: 10px 24px;
-          font-size: 15px;
-        }
-
-        .cta .btn {
-          padding: 10px 26px;
-          font-size: 15px;
-        }
-
-        .cta h2 {
-          font-size: 34px;
-        }
-
-        .cta p {
-          font-size: 16px;
-        }
-
-        .footer-logo {
-          font-size: 22px;
-        }
-
-        .footer p {
-          font-size: 14px;
-        }
-
-        .footer ul li {
-          margin-bottom: 8px;
-        }
-
-        .social-icons {
-          margin-top: 15px;
-        }
-
-      }
-
-      @media(max-width:768px) {
-
-        p {
-          font-size: 16px;
-          padding: 0 20px;
-        }
-
-        .sub-navbar {
-          padding: 5px 10px;
-        }
-
-        .sub-nav-links {
-          justify-content: center;
-          gap: 12px;
-        }
-
-        .sub-nav-links a {
-          font-size: 13px;
-          padding: 12px 10px;
-        }
-
-        .hero {
-          min-height: calc(100vh - 180px);
-        }
-
-        .hero h1 {
-          font-size: 34px;
-        }
-
-        .hero p {
-          font-size: 15px;
-        }
-
-        .btn-main {
-          padding: 10px 22px;
-          font-size: 14px;
-        }
-
-        .section-title h2 {
-          font-size: 28px;
-        }
-
-        .cta .btn {
-          padding: 10px 24px;
-          font-size: 14px;
-        }
-
-        .cta h2 {
-          font-size: 30px;
-        }
-
-        .cta p {
-          font-size: 15px;
-        }
-
-        .footer {
-          text-align: center;
-        }
-
-        .footer .row {
-          row-gap: 30px;
-        }
-
-        .footer-bottom {
-          flex-direction: column;
-          text-align: center;
-          gap: 10px;
-        }
-
-        .footer-links {
-          margin: 10px 0;
-          font-size: 14px;
-        }
-
-        .whatsapp-float {
-          bottom: 20px;
-          right: 20px;
-          width: 55px;
-          height: 55px;
-        }
-
-        .whatsapp-icon {
-          width: 28px;
-          height: 28px;
-        }
-
-      }
-
-      @media(max-width:576px) {
-
-        p {
-          font-size: 13px;
-          padding: 0 20px;
-        }
-
-        .sub-nav-links {
-          gap: 10px;
-        }
-
-        .sub-nav-links a {
-          font-size: 10px;
-          padding: 10px 8px;
-        }
-
-        .sub-nav-links a i {
-          margin-right: 4px;
-        }
-
-        p {
-          font-size: 16px;
-          line-height: 1.6;
-        }
-
-        .hero {
-          min-height: calc(100vh - 160px);
-        }
-
-        .hero h1 {
-          font-size: 28px;
-        }
-
-        .hero p {
-          font-size: 14px;
-        }
-
-        .btn-main {
-          padding: 10px 20px;
-          font-size: 14px;
-        }
-
-        .cta {
-          padding: 70px 20px;
-        }
-
-        .cta .btn {
-          padding: 10px 22px;
-          font-size: 14px;
-          display: inline-block;
-        }
-
-        .cta h2 {
-          font-size: 26px;
-        }
-
-        .cta p {
-          font-size: 14px;
-        }
-
-        .footer {
-          padding: 60px 20px;
-        }
-
-        .footer-logo {
-          font-size: 20px;
-        }
-
-        .footer p {
-          font-size: 13px;
-        }
-
-        .footer h5 {
-          font-size: 16px;
-        }
-
-        .footer ul li a {
-          font-size: 14px;
-        }
-
-        .footer-links a {
-          font-size: 14px;
-        }
-
-      }
-
-      @media(max-width:400px) {
-
-        p {
-          font-size: 14px;
-          padding: 0 20px;
-        }
-
-        .sub-nav-links {
-          gap: 6px;
-        }
-
-        .sub-nav-links a {
-          font-size: 12px;
-          padding: 8px 6px;
-        }
-
-        .hero {
-          min-height: calc(100vh - 190px);
-        }
-
-        .hero h1 {
-          font-size: 24px;
-        }
-
-        .hero p {
-          font-size: 13px;
-        }
-
-        .btn-main {
-          padding: 9px 18px;
-          font-size: 13px;
-        }
-
-        .cta .btn {
-          padding: 9px 18px;
-          font-size: 13px;
-        }
-
-        .cta h2 {
-          font-size: 22px;
-        }
-
-        .footer-logo {
-          font-size: 18px;
-        }
-
-        .footer p {
-          font-size: 12px;
-        }
-
-        .footer ul li a {
-          font-size: 13px;
-        }
-
-        .footer-links a {
-          font-size: 13px;
-        }
-
-      }
+@media (max-width:992px) {
+
+  p {
+    font-size: 17px;
+  }
+
+  .sub-nav-links {
+    gap: 20px;
+  }
+
+  .sub-nav-links a {
+    font-size: 13px;
+    padding: 16px 14px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 150px);
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn-main {
+    padding: 10px 24px;
+    font-size: 15px;
+  }
+
+  .cta .btn {
+    padding: 10px 26px;
+    font-size: 15px;
+  }
+
+  .cta h2 {
+    font-size: 34px;
+  }
+
+  .cta p {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: 22px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer ul li {
+    margin-bottom: 8px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+  }
+
+}
+
+@media(max-width:768px) {
+
+  p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .sub-navbar {
+    padding: 5px 10px;
+  }
+
+  .sub-nav-links {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .sub-nav-links a {
+    font-size: 13px;
+    padding: 12px 10px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 180px);
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn-main {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .cta .btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+  }
+
+  .cta p {
+    font-size: 15px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .row {
+    row-gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer-links {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .whatsapp-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+}
+
+@media(max-width:576px) {
+
+  p {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+
+  .sub-nav-links {
+    gap: 10px;
+  }
+
+  .sub-nav-links a {
+    font-size: 10px;
+    padding: 10px 8px;
+  }
+
+  .sub-nav-links a i {
+    margin-right: 4px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .hero {
+    min-height: calc(100vh - 160px);
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .btn-main {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .cta {
+    padding: 70px 20px;
+  }
+
+  .cta .btn {
+    padding: 10px 22px;
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  .cta h2 {
+    font-size: 26px;
+  }
+
+  .cta p {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 60px 20px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .footer h5 {
+    font-size: 16px;
+  }
+
+  .footer ul li a {
+    font-size: 14px;
+  }
+
+  .footer-links a {
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width:400px) {
+
+  p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .sub-nav-links {
+    gap: 6px;
+  }
+
+  .sub-nav-links a {
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 190px);
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 13px;
+  }
+
+  .btn-main {
+    padding: 9px 18px;
+    font-size: 13px;
+  }
+
+  .cta .btn {
+    padding: 9px 18px;
+    font-size: 13px;
+  }
+
+  .cta h2 {
+    font-size: 22px;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer ul li a {
+    font-size: 13px;
+  }
+
+  .footer-links a {
+    font-size: 13px;
+  }
+
+}
